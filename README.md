@@ -21,6 +21,7 @@ expected output is indices.
  2nd for loop --- Adds the remaining indexes (other than the 1st index) : ie takes index 1 and adds to index 2 and the remaining indices until the two add up to the sum given.
 prints out the result
    
+4. has 2 nested loops and quadratic running time: O(n2
 {{{A function with a quadratic time complexity has a growth rate of n^2}}
 
 
