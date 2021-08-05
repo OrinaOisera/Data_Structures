@@ -5,13 +5,14 @@ def findPair(A,sum):
         for j in range(i+1, len(A)):
             if A[i] + A[j] == sum:
                 print(A[i], "&", A[j])
-                print("Pair found is at index", i, "and", j)
+                # print("Pair found is at index", i, "and", j)
+                print([i,j])
 
-        print("Pair found", x)
-        x += 1
+        # print("Pair found", x)
+        # x += 1
 
 
-A = [5, 7, 4, 3, 9, 8, 19, 2]
-sum =12
+ manumber = [2,7,11,15]
+lengo = 9
 
 findPair(A, sum)
