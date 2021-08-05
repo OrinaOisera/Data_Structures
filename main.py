@@ -1,7 +1,7 @@
 def two_sum (arr,sum):
     x = []
-    y = []
-    y = arr[0:]
+    # y = []
+    # y = arr[0:]
     x = arr[0:]
     arr.sort()
     left = 0
@@ -24,7 +24,7 @@ def two_sum (arr,sum):
                 i = 0
                 for arr[right] in range(n):
                     if arr[right] != x[i]:
-                          i = i + 1
+                          i = i  + 1
                     elif arr[right] == x[i]:
                         print(i)
                 # for arr[right] in range(n):

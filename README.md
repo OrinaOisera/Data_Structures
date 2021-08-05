@@ -20,6 +20,9 @@ expected output is indices.
  1st for loop--(Takes first index and iterates the remaining numbers until it gets the sum)
  2nd for loop --- Adds the remaining indexes (other than the 1st index) : ie takes index 1 and adds to index 2 and the remaining indices until the two add up to the sum given.
 prints out the result
+   
+{{{A function with a quadratic time complexity has a growth rate of n^2}}
+
 
 
 
